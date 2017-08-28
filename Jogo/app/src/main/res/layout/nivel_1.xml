@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#87CEEB"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="right|center_vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nivel_1_ilha_a"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="100dp"
+            android:layout_marginBottom="80dp"
+            android:background="@drawable/ilha2"
+            android:layout_marginTop="20dp"
+            android:tag="2"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nivel_1_ilha_b"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/ilha2"
+            android:tag="1"
+            android:layout_marginLeft="-110dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nivel_1_ilha_c"
+            android:layout_marginLeft="120dp"
+            android:background="@drawable/ilha_tesouro"
+            android:layout_marginTop="40dp"
+            android:tag="3" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/preto"
+        android:id="@+id/textViewA"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="60dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textViewC"
+        android:layout_marginLeft="365dp"
+        android:layout_marginTop="90dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textViewB"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="180dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nivel_1_navio"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="140dp"
+        android:tag="0"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:background="@drawable/dinheiro"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/nivel_1_pontos"
+        android:textColor="@color/preto"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="5dp" />
+
+
+</FrameLayout>

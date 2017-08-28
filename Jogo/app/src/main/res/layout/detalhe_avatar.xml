@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#87CEEB">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView" >
+
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardview_detalhe_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                card_view:cardBackgroundColor="@color/white"
+                card_view:cardCornerRadius="2dp"
+                card_view:cardElevation="6dp"
+                android:layout_marginTop="80dp">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/detalhe_textNomeAvatar"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="nome"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:id="@+id/detalhe_imageAvatar" />
+                    </LinearLayout>
+
+                </FrameLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardview_detalhe_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                card_view:cardBackgroundColor="@color/white"
+                card_view:cardCornerRadius="2dp"
+                card_view:cardElevation="6dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1.90">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="106dp">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Bloqueado:"
+                        android:id="@+id/textB"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginLeft="60dp" />
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/detalhe_checkBox"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="30dp" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">Ilha das Palavras</string>
+
+    <string name="action_novo">Novo</string>
+    <string name="action_salvar">Salvar</string>
+    <string name="action_excluir">Excluir</string>
+    <string name="action_reiniciar">Reiniciar</string>
+    <string name="action_mapa">Mapa</string>
+    <string name="action_sair">Sair</string>
+    <string name="action_ajuda">Ajuda</string>
+    <string name="action_prox">Próximo</string>
+
+</resources>

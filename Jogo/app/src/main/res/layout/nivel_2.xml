@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#87CEEB"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginLeft="5dp">
+
+        <ImageView
+            android:layout_width="94dp"
+            android:layout_height="71dp"
+            android:id="@+id/nivel_2_ilha_a"
+            android:background="@drawable/ilha2"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="-70dp"
+            android:layout_marginLeft="70dp"
+            android:tag="10"/>
+
+        <ImageView
+            android:layout_width="94dp"
+            android:layout_height="71dp"
+            android:id="@+id/nivel_2_ilha_b"
+            android:layout_gravity="left|center_vertical"
+            android:background="@drawable/ilha2"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="-100dp"
+            android:tag="8"/>
+
+        <ImageView
+            android:layout_width="94dp"
+            android:layout_height="71dp"
+            android:id="@+id/nivel_2_ilha_c"
+            android:layout_gravity="left|center_vertical"
+            android:background="@drawable/ilha2"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="-85dp"
+            android:tag="4"/>
+
+        <ImageView
+            android:layout_width="94dp"
+            android:layout_height="71dp"
+            android:id="@+id/nivel_2_ilha_d"
+            android:layout_gravity="left|center_vertical"
+            android:background="@drawable/ilha2"
+            android:layout_marginLeft="-120dp"
+            android:layout_marginTop="70dp"
+            android:tag="5"/>
+
+        <ImageView
+            android:layout_width="94dp"
+            android:layout_height="71dp"
+            android:id="@+id/nivel_2_ilha_e"
+            android:layout_gravity="left|center_vertical"
+            android:background="@drawable/ilha_tesouro"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="50dp"
+            android:tag="40"/>
+
+        <ImageView
+            android:layout_width="94dp"
+            android:layout_height="71dp"
+            android:id="@+id/nivel_2_ilha_f"
+            android:layout_gravity="left|center_vertical"
+            android:background="@drawable/ilha_tesouro"
+            android:layout_marginTop="-60dp"
+            android:tag="30"
+            android:layout_marginLeft="-80dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="0"
+        android:id="@+id/nivel_2_pontos"
+        android:textColor="@color/preto"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/nivel_2_text_a"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="80dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/nivel_2_text_b"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="75dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/nivel_2_text_c"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="225dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/nivel_2_text_d"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="195dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/nivel_2_text_f"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="350dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/nivel_2_text_e"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="335dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:background="@drawable/dinheiro"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nivel_2_navio"
+        android:layout_gravity="center_vertical"
+        android:tag="0"/>
+
+
+</FrameLayout>
